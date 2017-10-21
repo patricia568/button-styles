@@ -13,10 +13,13 @@ div {
   display: inline-block;
 }
 
+.btn {
+  font-size: 1.125rem;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #333;
-  font-size: 1.125rem;
   text-decoration: none;
   border-radius: 8px;
   padding: .4em .75em .3em;
@@ -25,7 +28,6 @@ div {
 .btn-subtle {
   color: #fff;
   background-color: #ccc;
-  font-size: 1.125rem;
   text-decoration: none;
   border-radius: 8px;
   padding: .4em .75em .3em;
@@ -38,7 +40,6 @@ a:hover.btn-subtle {
 .btn-ghost {
   color: #000;
   background-color: #fff;
-  font-size: 1.125rem;
   text-decoration: none;
   border-radius: 8px;
   padding: .4em .75em .3em;
@@ -55,7 +56,6 @@ a:hover.btn-ghost {
 .btn-warning {
   color: #fff;
   background-color: #f33;
-  font-size: 1.125rem;
   text-decoration: none;
   border-radius: 8px;
   padding: .4em .75em .3em;
@@ -63,4 +63,8 @@ a:hover.btn-ghost {
 
 a:hover.btn-warning {
   background-color: #933;
+}
+
+.btn-small {
+  font-size: .875rem;
 }
