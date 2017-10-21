@@ -68,3 +68,7 @@ a:hover.btn-warning {
 .btn-small {
   font-size: .875rem;
 }
+
+.btn-big {
+  font-size: 1.5rem;
+}
