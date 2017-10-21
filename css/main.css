@@ -15,4 +15,6 @@ div {
 .btn-primary {
   color: #fff;
   background-color: #333;
+  font-size: 1.125rem;
+  text-decoration: none;
 }
