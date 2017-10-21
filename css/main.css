@@ -33,3 +33,19 @@ div {
 a:hover.btn-subtle {
   background-color: #666;
 }
+
+.btn-ghost {
+  color: #000;
+  background-color: #fff;
+  font-size: 1.125rem;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  border-style: solid;
+  border-color: #000;
+  border-width: 3px;
+}
+
+a:hover.btn-ghost {
+  background-color: #666;
+}
