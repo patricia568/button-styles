@@ -62,3 +62,56 @@ a:hover.btn-ghost {
 
 a:hover.btn-warning {
   background-color: #933;
+}
+
+.btn-small-primary {
+  color: #fff;
+  background-color: #333;
+  font-size: .875rem;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+}
+
+.btn-small-subtle {
+  color: #fff;
+  background-color: #ccc;
+  font-size: .875rem;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+}
+
+a:hover.btn-small-subtle {
+  background-color: #666;
+}
+
+.btn-small-ghost {
+  color: #000;
+  background-color: #fff;
+  font-size: .875rem;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  border-style: solid;
+  border-color: #000;
+  border-width: 3px;
+}
+
+a:hover.btn-small-ghost {
+  background-color: #666;
+  color: #fff;
+}
+
+.btn-small-warning {
+  color: #fff;
+  background-color: #f33;
+  font-size: .875rem;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+}
+
+a:hover.btn-small-warning {
+  background-color: #933;
+}
