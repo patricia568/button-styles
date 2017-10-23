@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 sans-serif;
-  display: block;
 }
 
 *, *::before, *::after {
@@ -11,12 +10,10 @@ html {
 div {
   padding: .5rem;
   text-align: center;
-  display: block;
 }
 
 .btn {
   font-size: 1.125rem;
-  display: inline-block;
 }
 
 .btn-primary {
@@ -69,10 +66,8 @@ a:hover.btn-warning {
 
 .btn-small {
   font-size: .875rem;
-  display: block;
 }
 
 .btn-big {
   font-size: 1.5rem;
-  display: block;
 }
