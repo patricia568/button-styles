@@ -10,10 +10,15 @@ html {
 div {
   padding: .5rem;
   text-align: center;
+  display: inherit;
 }
 
 .btn {
   font-size: 1.125rem;
+}
+
+.btn-primary:hover {
+  background-color: #000;
 }
 
 .btn-primary {
