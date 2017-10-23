@@ -32,7 +32,7 @@ div {
   padding: .4em .75em .3em;
 }
 
-a:hover.btn-subtle {
+.btn-subtle:hover {
   background-color: #666;
 }
 
@@ -47,7 +47,7 @@ a:hover.btn-subtle {
   border-width: 3px;
 }
 
-a:hover.btn-ghost {
+.btn-ghost:hover {
   background-color: #666;
   color: #fff;
 }
@@ -60,7 +60,7 @@ a:hover.btn-ghost {
   padding: .4em .75em .3em;
 }
 
-a:hover.btn-warning {
+.btn-warning:hover {
   background-color: #933;
 }
 
