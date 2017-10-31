@@ -10,18 +10,13 @@ html {
 div {
   padding: .5rem;
   text-align: center;
-  display: inherit;
+}
+
+a.btn {
 }
 
 .btn {
   font-size: 1.125rem;
-}
-
-.btn-primary:hover {
-  background-color: #000;
-}
-
-.btn-primary {
   color: #fff;
   background-color: #333;
   text-decoration: none;
@@ -29,12 +24,13 @@ div {
   padding: .4em .75em .3em;
 }
 
+.btn:hover {
+  background-color: #000;
+}
+
 .btn-subtle {
   color: #fff;
   background-color: #ccc;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
 }
 
 .btn-subtle:hover {
@@ -44,9 +40,6 @@ div {
 .btn-ghost {
   color: #000;
   background-color: #fff;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
   border-style: solid;
   border-color: #000;
   border-width: 3px;
@@ -60,9 +53,6 @@ div {
 .btn-warning {
   color: #fff;
   background-color: #f33;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
 }
 
 .btn-warning:hover {
@@ -71,8 +61,14 @@ div {
 
 .btn-small {
   font-size: .875rem;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
 }
 
 .btn-big {
   font-size: 1.5rem;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
 }
