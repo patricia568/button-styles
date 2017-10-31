@@ -15,7 +15,7 @@ div {
 a.btn {
 }
 
-.btn {
+.btn-primary {
   font-size: 1.125rem;
   color: #fff;
   background-color: #333;
@@ -71,4 +71,8 @@ a.btn {
   text-decoration: none;
   border-radius: 8px;
   padding: .4em .75em .3em;
+}
+
+.btn {
+  text-decoration: none;
 }
