@@ -12,10 +12,7 @@ div {
   text-align: center;
 }
 
-a.btn {
-}
-
-.btn-primary {
+.btn{
   font-size: 1.125rem;
   color: #fff;
   background-color: #333;
@@ -24,7 +21,7 @@ a.btn {
   padding: .4em .75em .3em;
 }
 
-.btn-primary:hover {
+.btn:hover {
   background-color: #000;
 }
 
@@ -61,18 +58,8 @@ a.btn {
 
 .btn-small {
   font-size: .875rem;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
 }
 
 .btn-big {
   font-size: 1.5rem;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
-}
-
-.btn {
-  text-decoration: none;
 }
