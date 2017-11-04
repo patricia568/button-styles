@@ -24,7 +24,7 @@ a.btn {
   padding: .4em .75em .3em;
 }
 
-.btn:hover {
+.btn-primary:hover {
   background-color: #000;
 }
 
